@@ -1,10 +1,9 @@
-h1 {
+body {
     font-family: 'Segoe UI';
 }
-#parrafo1 {
+.parrafo1 {
     font-family: 'Segoe UI';
     font-style: italic;
     font-size: small;
-    border-style: dotted;
-    border-color: red
+    border: 2px dotted red;
 }
