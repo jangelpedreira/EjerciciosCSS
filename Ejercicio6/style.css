@@ -1,0 +1,65 @@
+body {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.info-container {
+    display: flex;
+}
+
+.contact-container {
+    margin-left: 10px;
+}
+
+.title {
+    font-size: medium;
+    margin: 4px;
+}
+
+.subtitle {
+    margin: 4px;
+}
+
+.button {
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid grey;
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+
+.button-grey {
+    background-color: grey;
+    color: white;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mark {
+    color: black;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.mark p {
+    margin: 0px;
+}
+
